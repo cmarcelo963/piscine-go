@@ -8,5 +8,4 @@ func main() {
 		z01.PrintRune(digits[i])
 	}
 	z01.PrintRune('\n')
-	}
-	
+}
