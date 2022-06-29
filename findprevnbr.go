@@ -1,8 +1,7 @@
 package piscine
 
 func FindPrevPrime(nb int) int {
-
-	for a := nb -1; a > 1; a-- {
+	for a := nb - 1; a > 1; a-- {
 		if isPrime(a) {
 			return a
 		}
@@ -11,7 +10,6 @@ func FindPrevPrime(nb int) int {
 }
 
 func isPrime(nb int) bool {
-
 	prime := true
 
 	for a := 2; a < nb; a++ {
